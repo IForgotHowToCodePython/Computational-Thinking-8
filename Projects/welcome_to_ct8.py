@@ -10,7 +10,8 @@ stage.set_background("fall")
 mySprite = codesters.Sprite("IMG_20250312_140743.jpg")
 mySprite.say("GET OUT!")
 mySprite.set_size(0.3)
-mySprite.set_opacity(0.5)
+mySprite.set_opacity(0.9)
+
 
 print("GET OUT!")
 print("Great job correctly setting up this codespace")
