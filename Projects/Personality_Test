@@ -1,0 +1,42 @@
+#Beginning
+R_points = 0
+R9_points = 0
+
+
+#Middle
+answer = input ("Are you (A) a Barca fan or (B) a Madrid fan?")
+if answer == "A":
+    R_points += 1  
+elif answer == "B":
+    R9_points += 1
+
+answer = input ("Do you (A) prefer to have long hair or (B) short hair?")
+if answer == "A":
+    R_points += 1
+elif answer == "B":
+    R9_points += 1
+
+answer = input ("Are you (A) a striker or (B) a midfielder?")
+if answer == "A":
+    R9_points += 1
+elif answer == "B":
+    R_points += 1
+
+answer = input ("Would you be (A) a top assister or (B) a top goalscorer?")
+if answer == "A":
+    R_points += 1
+elif answer == "B":
+    R9_points += 1
+
+answer = input ("would you be (A) a dedicated teammate or (B) a wandering mercenary?")
+if answer == "A":
+    R_points += 1
+elif answer == "B":
+    R9_points += 1
+
+
+# end of quiz:  
+if R_points > R9_points:
+    print ("You are a Ronny person")
+elif R9_points  >  R_points:
+    print ("You are an R9 person")
