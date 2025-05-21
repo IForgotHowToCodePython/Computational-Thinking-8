@@ -38,16 +38,16 @@ t4 = create_sprite("kitten",x4,y4)
 
 # # Section 4 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
-# # soccerball has propensity to be fastest, most consistent is probably fox
-# for i in range(200):
-# 	x1 +=8
-# 	x2 +=random.randint(0,80)
-# 	x3 +=random.randint(8,16)
-# 	x4 +=random.randint(4,20)
+# # soccer ball has propensity to be fastest, most consistent is probably fox
+# for i in range(30):
+# 	x1 += 8
+# 	x2 += random.randint(0,22)
+# 	x3 += random.randint(8,16)
+# 	x4 += random.randint(4,20)
 # 	t1.goto(x1, y1)
 # 	t2.goto(x2, y2)
 # 	t3.goto(x3, y3)
-# 	t4.goto(x4, y4)
+#	t4.goto(x4, y4)
 #	time.sleep(0.1)
 
 
