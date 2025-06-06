@@ -39,25 +39,25 @@ t4 = create_sprite("kitten",x4,y4)
 # # Section 4 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # soccer ball has propensity to be fastest, most consistent is probably fox
-# for i in range(30):
-# 	x1 += 8
-# 	x2 += random.randint(0,22)
-# 	x3 += random.randint(8,16)
-# 	x4 += random.randint(4,20)
-# 	t1.goto(x1, y1)
-# 	t2.goto(x2, y2)
-# 	t3.goto(x3, y3)
-#	t4.goto(x4, y4)
-#	time.sleep(0.1)
+for i in range(30):
+	x1 += 8
+	x2 += random.randint(0,22)
+	x3 += random.randint(8,16)
+	x4 += random.randint(4,20)
+	t1.goto(x1, y1)
+	t2.goto(x2, y2)
+	t3.goto(x3, y3)
+	t4.goto(x4, y4)
+	time.sleep(0.1)
 
 
 # # Section 5 - Winner
 # # TODO - complete the elif for player 2 winning
 # # TODO - write another elif for player 3 and player 4
-# if x1 >= x2 and x1 >= x3 and x1 >= x4:
-# 	print("player 1 wins!")
-# elif
-# 	print("player 2 wins!")
+	if x1 >= x2 and x1 >= x3 and x1 >= x4:
+		print("player 1 wins!")
+	else:
+		print("player 2 wins!")
 
 
 
